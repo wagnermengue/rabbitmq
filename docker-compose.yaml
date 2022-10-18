@@ -6,7 +6,7 @@ services:
     container_name: micro-rabbitmq
     hostname: rabbitmq
     ports:
-      - 15762:15762
+      - 15672:15672
       - 5672:5672
     volumes:
       - ./rabbitmqdata:/var/lib/rabbitmq/mnesia
